@@ -1,11 +1,22 @@
-<h1>Hello?</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <h1>TODO STUFF</h1>
+    <img src="/images/todo.png" alt="icon">
+    <% for (var i = 0; i < things.length; i++ ) { %>
+      <p><%= i+1 %> - <%= things[i].item %></p>
+    <% } %>
 
-<% for (var i = 0; i < things.length; i++ ) { %>
-  <p><%= i+1 %> - <%= things[i].item %></p>
-<% } %>
+    <p>
+      <a href="/todo/new">
+        <button type="ADD" name="button">ADD</button>
+      </a>
+    </p>
 
-<p>
-  <a href="/todo/new">
-    <button type="ADD" name="button">ADD</button>
-  </a>
-</p>
+  </body>
+</html>
