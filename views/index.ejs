@@ -1,1 +1,11 @@
 <h1>Hello?</h1>
+
+<% for (var i = 0; i < things.length; i++ ) { %>
+  <p><%= i+1 %> - <%= things[i].item %></p>
+<% } %>
+
+<p>
+  <a href="/todo/new">
+    <button type="ADD" name="button">ADD</button>
+  </a>
+</p>
