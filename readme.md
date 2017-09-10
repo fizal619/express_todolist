@@ -2,8 +2,6 @@
 
 Simple example of express to capture form data.
 
-__Warning, does not follow production ready practices__
-
 ## How to install and run
 
 1. `git clone https://github.com/fizal619/express_todolist`
